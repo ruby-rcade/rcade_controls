@@ -1,5 +1,3 @@
-# Rcade::Controls
-
 This library maps the [standard arcade control keys](http://www.ultimarc.com/ipac2.html) to Ruby constants that can be used when checking which button was pressed. This library assumes you're creating a Gosu game. Please submit a pull request if you would like to support other game libraries.
 
 ## Installation
@@ -35,7 +33,7 @@ class Game < Gosu::Window
 end
 ```
 
-For a full list of the supported buttons, refer to the source code.
+For a full list of the supported buttons, refer to the [source code](https://github.com/ruby-rcade/rcade-controls/blob/master/lib/rcade-controls.rb).
 
 ## Contributing
 
