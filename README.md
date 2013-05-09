@@ -22,12 +22,16 @@ In your game, you can check if the key pressed matches the button that you expec
 class Game < Gosu::Window
   def button_down(button)
     case button
-    when Button::Coin1, Button::Coin2, Button::Coin3, Button::Coin4
+    when Coin1, Coin2
       insert_coin
-    when Button::P1Start
+    when P1Start
       start_game
-    when Button::P1Up, Button::P1Down, Button::P1Left, Button::P1Right
+    when P1Up, P1Down, P1Left, P1Right
       move_player_one(button)
+    when P1Button1
+      attack!
+    when Escape
+      close
     end
   end
 end
