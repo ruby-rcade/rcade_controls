@@ -1,10 +1,10 @@
-This library maps the [standard arcade control keys](http://www.ultimarc.com/ipac2.html) to Ruby constants that can be used when checking which button was pressed. This library assumes you're creating a Gosu game. Please submit a pull request if you would like to support other game libraries.
+This library maps the [standard arcade controller keys](http://www.ultimarc.com/ipac2.html) to Ruby constants that can be used when checking which button was pressed. This library assumes you're creating a Gosu game. Please submit a pull request if you would like to support other game libraries.
 
 ## Installation
 
 Add this line to your game's Gemfile:
 
-    gem 'rcade-controls'
+    gem 'rcade_controls'
 
 And then execute:
 
@@ -12,7 +12,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install rcade-controls
+    $ gem install rcade_controls
 
 ## Usage
 
@@ -37,7 +37,7 @@ class Game < Gosu::Window
 end
 ```
 
-For a full list of the supported buttons, refer to the [source code](https://github.com/ruby-rcade/rcade-controls/blob/master/lib/rcade-controls.rb).
+For a full list of the supported buttons, refer to the [source code](https://github.com/ruby-rcade/rcade_controls/blob/master/lib/rcade_controls.rb).
 
 ## Contributing
 

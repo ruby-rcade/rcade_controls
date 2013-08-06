@@ -1,13 +1,13 @@
-# coding: utf-8
+# encoding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "rcade-controls"
-  spec.version       = "0.0.2"
+  spec.name          = "rcade_controls"
+  spec.version       = "0.0.3"
   spec.authors       = ["Andrew Havens"]
   spec.email         = ["email@andrewhavens.com"]
-  spec.description   = %q{A Ruby library of standard arcade control mappings.}
-  spec.summary       = %q{A Ruby library of standard arcade control mappings.}
-  spec.homepage      = "https://github.com/ruby-rcade/rcade-controls"
+  spec.description   = %q{A Ruby library of standard arcade controller mappings.}
+  spec.summary       = %q{A Ruby library of standard arcade controller mappings.}
+  spec.homepage      = "https://github.com/ruby-rcade/rcade_controls"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
