@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "rcade_controls"
-  spec.version       = "0.0.3"
+  spec.version       = "0.1.0"
   spec.authors       = ["Andrew Havens"]
   spec.email         = ["email@andrewhavens.com"]
-  spec.description   = %q{A Ruby library of standard arcade controller mappings.}
-  spec.summary       = %q{A Ruby library of standard arcade controller mappings.}
+  spec.description   = %q{A library of standard arcade controller keyboard mappings.}
+  spec.summary       = %q{A library of standard arcade controller keyboard mappings.}
   spec.homepage      = "https://github.com/ruby-rcade/rcade_controls"
   spec.license       = "MIT"
 
